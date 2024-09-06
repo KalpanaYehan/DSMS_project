@@ -129,6 +129,6 @@ export async function getADriverIdsForSuitable(date, time, tripTime, store_id) {
     return { sucess: true, result: result[0] };
   } catch (error) {
     console.error("Error:", error);
-    return { sucess: false, err: err };
+    return { sucess: false, err: error};
   }
 }

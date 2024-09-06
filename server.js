@@ -254,7 +254,7 @@ console.log("Net ", res);
 
 // console.log("Prod ---- ", res.orders[17].order_id, res.orders[17].products);
 
-const port = process.env.PORT || 8000;
+const port = 8000;
 // Set Port to work as server ---
 app.listen(port, () => {
   console.log("server is running on port " + port);
